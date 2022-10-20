@@ -8,7 +8,9 @@ namespace W2L4E4
         public static void Main(string[] args)
         {
             int a = 10;
+
             string b = "Szkoła Dotneta";
+            
             double c = 12.5;
 
             Console.WriteLine(a);
