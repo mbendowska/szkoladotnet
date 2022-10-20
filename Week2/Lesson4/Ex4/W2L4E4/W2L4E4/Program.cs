@@ -14,7 +14,9 @@ namespace W2L4E4
             double c = 12.5;
 
             Console.WriteLine(a);
+
             Console.WriteLine(b);
+            
             Console.WriteLine(c);
         }
     }
