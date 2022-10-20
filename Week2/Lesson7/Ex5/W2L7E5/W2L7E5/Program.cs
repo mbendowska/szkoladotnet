@@ -4,10 +4,11 @@ Dane testowe : 21
 Rezultat w terminalu :
 Możesz zostać posłem
  */
+
 using System;
 using System.Runtime.CompilerServices;
 
-namespace W2L7E4
+namespace W2L7E5
 {
     public class Program
     {
