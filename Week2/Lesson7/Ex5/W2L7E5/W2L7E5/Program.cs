@@ -15,7 +15,7 @@ namespace W2L7E5
         public static void Main(string[] args)
         {
             Console.WriteLine("Podaj wiek");
-            int age = int.Parse(Console.ReadLine());
+            byte age = Byte.Parse(Console.ReadLine());
 
             if ((age < 21)&&(age>=18))
             {
