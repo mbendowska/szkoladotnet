@@ -18,7 +18,7 @@ Kandydat dopuszczony do rekrutacji
 using System;
 using System.Runtime.CompilerServices;
 
-namespace W2L4E8
+namespace W2L7E8
 {
     public class Program
     {
