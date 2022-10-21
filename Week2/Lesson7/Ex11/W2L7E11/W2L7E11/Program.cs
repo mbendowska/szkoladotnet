@@ -49,8 +49,6 @@ namespace W2L7E11
                         Console.ResetColor();
                     break;
             }
-        }
-                       
+        }                      
     }
 }
-
