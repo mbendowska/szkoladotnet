@@ -1,6 +1,7 @@
 ﻿/*
 Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 – 100.
 */
+
 using System;
 using System.Runtime.CompilerServices;
 
