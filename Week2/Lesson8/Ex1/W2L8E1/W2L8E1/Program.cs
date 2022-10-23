@@ -10,19 +10,21 @@ namespace W2L8E2
     {
         public static void Main(string[] args)
         {
-            for (byte number = 0; number <= 100; number++)
+            Console.WriteLine("Liczby pierwsze z przedziału od 0-100");
+            //0 i 1 nie są liczbami pierwszymi więc nie ma konieczności ich sprawdzania czy są podzielne przez 1 i samą siebie. Stąd pętla for zaczyna się od 2.
+            for (byte number = 2; number <= 100; number++)
             {
-                byte licznik = 0;
-                for (byte dziel = 1; dziel <= 100; dziel++)
+                byte counter= 0;
+                for (byte divider = 1; divider  <= 100; divider++)
                 {
-                    if ((number % dziel) == 0)
+                    if ((number % divider) == 0)
                     {
-                        licznik++;
+                        counter++;
                     }
                 }
-                if (licznik == 2)
+                if (counter == 2)
                 {
-                    Console.WriteLine($"Liczba {number}");
+                    Console.Write($"{number} ,");
                 }
             }
         }
