@@ -14,19 +14,15 @@ namespace W2L8E6
         {
             double result = 0.0;
             double temp = 0.0;
-            for (int i = 1; i < 21; i++)
+            for (int i = 1; i < 20; i++)
             {
-                if (i==21)
-                {
-                    Console.WriteLine($"1/{i}");
-                    temp = 1 / i;
-                    result=result+temp;
-                    Console.WriteLine(result);
-                }
                 Console.Write($"1/{i}+");
-                temp = 1 / i;
-                result=result+temp;
-            }
+                temp= 1.0 / i;
+                result = result+temp;
+            }           
+            temp = 1.0 / 20;
+            result = result + temp;
+            Console.WriteLine($"1/{20}={result}");
         }
     }
 }
