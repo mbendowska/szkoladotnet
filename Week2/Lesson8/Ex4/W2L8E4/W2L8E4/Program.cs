@@ -8,30 +8,35 @@ Napisz program, który po podaniu liczby całkowitej wyświetli piramidę liczb 
 using System;
 using System.Runtime.CompilerServices;
 
-namespace W2L8E3
+namespace W2L8E4
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Podaj liczbę");
+            Console.WriteLine("Podaj liczbę calkowitą");
             int number = Int32.Parse(Console.ReadLine());
-            int a = 1;
-            for (int i = 1; i <= number; i++)
+            int a = 0;
+            if (number <= 0)
             {
-                
-                
-                
-                
-                for (int z=1; z<=i; z++)
-                {
-                    Console.Write(a + ", ");
-                    a++;
-                }
-                Console.WriteLine("");
+                Console.WriteLine("Podałeś złą liczbę. Liczba musi być większa od 0!!!");
             }
-
- 
+            else
+            {
+                for (int i = 1; a < number; i++)
+                {
+                    for (int z = 1; z <= i; z++)
+                    {
+                        a++;
+                        Console.Write($"{a}  ");
+                        if (a == number)
+                        {
+                            break;
+                        }
+                    }
+                    Console.WriteLine();
+                }
+            }
         }
     }
 }
